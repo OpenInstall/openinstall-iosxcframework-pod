@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name                  = "libOpenInstallSDK-xcframework"
-s.version               = '2.9.2'
+s.version               = '3.0.0'
 s.summary               = "openinstall's officially supported iOS xcframework SDK"
 s.description           = <<-DESC
     openinstall's officially supported iOS xcframework SDK for pod.
@@ -13,6 +13,6 @@ s.source                = { :git => "https://github.com/OpenInstall/openinstall-
 
 s.ios.vendored_frameworks = 'libOpenInstallSDK.xcframework'
 
-s.platform              = :ios, '9.0'
+s.platform              = :ios, '12.0'
 
 end
