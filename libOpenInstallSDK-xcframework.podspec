@@ -13,6 +13,6 @@ s.source                = { :git => "https://github.com/OpenInstall/openinstall-
 
 s.ios.vendored_frameworks = 'libOpenInstallSDK.xcframework'
 
-s.platform              = :ios, '12.0'
+s.platform              = :ios, '9.0'
 
 end
